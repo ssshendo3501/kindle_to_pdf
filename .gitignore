@@ -4,6 +4,7 @@ __pycache__/
 *.egg-info/
 dist/
 build/
+.eggs/
 
 # Output files
 *.pdf
@@ -11,6 +12,10 @@ kindle_screenshots/
 
 # macOS
 .DS_Store
+
+# Icon source files (icon.icns is kept for build)
+icon.iconset/
+icon.png
 
 # IDE
 .vscode/
